@@ -2,7 +2,7 @@
 
 var grunt = require('grunt');
 
-exports.couch = ['simple', 'full', 'advanced', 'merge', 'jsonfile', 'jsfile'].reduce(function(tests, name) {
+exports.couch = ['simple', 'full', 'advanced', 'merge', 'jsonfile', 'jsfile', 'file.js'].reduce(function(tests, name) {
   tests[name]= function(test) {
     test.expect(1);
 

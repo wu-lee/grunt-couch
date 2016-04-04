@@ -61,6 +61,11 @@ module.exports = function(grunt) {
         files: {
           'tmp/jsfile.json': 'test/fixtures/jsfile/app.js'
         }
+      },
+      'file.js': {
+        files: {
+          'tmp/file.js.json': 'test/fixtures/file.js'
+        }
       }
     },
 

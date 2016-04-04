@@ -1,0 +1,15 @@
+{
+  "docs": [
+    {
+      "foo": {
+        "bah": {
+          "title": "Bah",
+          "list": [
+            "Uno",
+            "Duo"
+          ]
+        }
+      }
+    }
+  ]
+}
